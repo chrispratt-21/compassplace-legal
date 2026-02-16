@@ -20,15 +20,14 @@
     .consent-box p { margin-bottom: 0; font-size: 15px; }
     .consent-label { font-weight: 600; color: #1B3868; margin-bottom: 8px; display: block; }
     .screenshot-gallery { margin: 32px 0; }
-    .screenshot-row { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 16px; }
-    .screenshot-item { flex: 1; min-width: 200px; max-width: 300px; }
-    .screenshot-item img { width: 100%; border: 1px solid #E5E7EB; border-radius: 8px; }
-    .screenshot-caption { font-size: 13px; color: #6B7280; margin-top: 6px; text-align: center; }
+    .screenshot-row { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; justify-content: center; }
+    .screenshot-item { flex: 0 1 220px; }
+    .screenshot-item img { width: 100%; border: 1px solid #E5E7EB; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .screenshot-caption { font-size: 13px; color: #6B7280; margin-top: 8px; text-align: center; }
     .info-box { background: #F3F4F6; border-radius: 8px; padding: 20px; margin: 24px 0; }
     a { color: #1B3868; }
     .nav { margin-top: 32px; padding-top: 20px; border-top: 1px solid #E5E7EB; font-size: 14px; }
     .nav a { margin-right: 20px; }
-    .placeholder-note { background: #FEF3C7; border: 1px dashed #F59E0B; border-radius: 8px; padding: 16px; margin: 16px 0; font-size: 14px; color: #92400E; }
   </style>
 </head>
 <body>
@@ -81,34 +80,30 @@
     <p>The following screenshots show the Compass Place registration flow where SMS consent is collected:</p>
 
     <div class="screenshot-gallery">
-      <!-- REPLACE THESE WITH YOUR ACTUAL SCREENSHOT IMAGES -->
-      <!-- Upload your screenshots to this repo's /images folder and update the src paths -->
-      <div class="placeholder-note">
-        <strong>Screenshots of the consent flow are displayed below.</strong> These show the mobile app registration screens including the consent checkbox, Terms of Service link, and Privacy Policy link that users must accept before creating an account.
-      </div>
-
-      <!-- Uncomment and update these once you add screenshot images to the repo:
       <div class="screenshot-row">
         <div class="screenshot-item">
-          <img src="images/registration-screen.png" alt="Registration screen with phone number entry">
-          <p class="screenshot-caption">Step 1: User enters phone number</p>
+          <img src="images/1 - user enters phone.PNG" alt="User enters their mobile phone number to begin registration">
+          <p class="screenshot-caption">Step 1: User enters mobile phone number</p>
         </div>
         <div class="screenshot-item">
-          <img src="images/consent-checkbox.png" alt="Consent checkbox with Terms and Privacy links">
-          <p class="screenshot-caption">Step 2: User checks consent checkbox</p>
+          <img src="images/2 - user enters otp.PNG" alt="User receives and enters SMS verification code">
+          <p class="screenshot-caption">Step 2: User verifies phone via SMS code</p>
+        </div>
+        <div class="screenshot-item">
+          <img src="images/3 - new user enters info.PNG" alt="New user enters their name and email address">
+          <p class="screenshot-caption">Step 3: User enters name and email</p>
         </div>
       </div>
       <div class="screenshot-row">
         <div class="screenshot-item">
-          <img src="images/verification-code.png" alt="SMS verification code entry">
-          <p class="screenshot-caption">Step 3: User verifies phone via SMS code</p>
+          <img src="images/4 - user agrees to pp tos.PNG" alt="User checks consent checkbox agreeing to Terms of Service, Privacy Policy, and SMS communications">
+          <p class="screenshot-caption">Step 4: User checks consent checkbox agreeing to Terms of Service, Privacy Policy, and SMS messages</p>
         </div>
         <div class="screenshot-item">
-          <img src="images/account-created.png" alt="Account creation confirmation">
-          <p class="screenshot-caption">Step 4: Account created with SMS consent recorded</p>
+          <img src="images/5 - home page.PNG" alt="User arrives at home page after completing registration with SMS consent">
+          <p class="screenshot-caption">Step 5: Registration complete — account created with SMS consent recorded</p>
         </div>
       </div>
-      -->
     </div>
 
     <div class="info-box">
