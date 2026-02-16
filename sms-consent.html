@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMS Consent — Compass Place</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color: #1F2937; line-height: 1.7; background: #FFFFFF; }
+    .container { max-width: 720px; margin: 0 auto; padding: 40px 24px 80px; }
+    .logo { font-size: 24px; font-weight: 700; color: #15515a; margin-bottom: 8px; }
+    .tagline { font-size: 14px; color: #6B7280; margin-bottom: 32px; }
+    h1 { font-size: 28px; font-weight: 700; color: #1B3868; margin-bottom: 8px; }
+    .updated { font-size: 14px; color: #6B7280; margin-bottom: 32px; }
+    h2 { font-size: 20px; font-weight: 600; color: #1B3868; margin-top: 32px; margin-bottom: 12px; }
+    p { margin-bottom: 12px; font-size: 15px; }
+    ul { margin: 8px 0 16px 24px; }
+    li { margin-bottom: 6px; font-size: 15px; }
+    .consent-box { background: #EFF6FF; border: 2px solid #1B3868; border-radius: 8px; padding: 20px; margin: 24px 0; }
+    .consent-box p { margin-bottom: 0; font-size: 15px; }
+    .consent-label { font-weight: 600; color: #1B3868; margin-bottom: 8px; display: block; }
+    .screenshot-gallery { margin: 32px 0; }
+    .screenshot-row { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 16px; }
+    .screenshot-item { flex: 1; min-width: 200px; max-width: 300px; }
+    .screenshot-item img { width: 100%; border: 1px solid #E5E7EB; border-radius: 8px; }
+    .screenshot-caption { font-size: 13px; color: #6B7280; margin-top: 6px; text-align: center; }
+    .info-box { background: #F3F4F6; border-radius: 8px; padding: 20px; margin: 24px 0; }
+    a { color: #1B3868; }
+    .nav { margin-top: 32px; padding-top: 20px; border-top: 1px solid #E5E7EB; font-size: 14px; }
+    .nav a { margin-right: 20px; }
+    .placeholder-note { background: #FEF3C7; border: 1px dashed #F59E0B; border-radius: 8px; padding: 16px; margin: 16px 0; font-size: 14px; color: #92400E; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">Compass Place</div>
+    <div class="tagline">A product of Fletcher Street Corporation</div>
+
+    <h1>SMS Consent</h1>
+    <p class="updated">How Compass Place Collects SMS Opt-In Consent</p>
+
+    <h2>Consent Collection Process</h2>
+    <p>Users download the Compass Place mobile app and create an account by providing their mobile phone number. During registration, before submitting, users must check a consent checkbox that states:</p>
+
+    <div class="consent-box">
+      <span class="consent-label">☑ Consent Checkbox Text:</span>
+      <p>"I agree to the <a href="/terms-of-service">Terms of Service</a> and <a href="/privacy-policy">Privacy Policy</a>, including receiving SMS messages about tour scheduling, facility communication, and facility reviews. Messages and data rates may apply. Reply STOP to opt out at any time."</p>
+    </div>
+
+    <p>This consent checkbox is <strong>required</strong> — users cannot complete registration without checking it. Opt-in is collected exclusively through the mobile app registration flow.</p>
+
+    <h2>What Messages Are Sent</h2>
+    <p>After consenting, users may receive SMS messages from Compass Place including:</p>
+    <ul>
+      <li>Tour scheduling requests and confirmations</li>
+      <li>Facility responses to tour inquiries</li>
+      <li>Tour reminders</li>
+      <li>Post-tour feedback requests</li>
+      <li>Check-ins after a parent moves into a facility</li>
+      <li>Important updates about saved facilities</li>
+      <li>Account verification codes</li>
+    </ul>
+
+    <h2>Message Frequency</h2>
+    <p>Message frequency varies based on user activity. During active tour scheduling, users may receive multiple messages per day. Otherwise, messages are periodic and activity-based.</p>
+
+    <h2>Opting Out</h2>
+    <p>Users can opt out of SMS communications at any time by:</p>
+    <ul>
+      <li>Replying <strong>STOP</strong> to any message from Compass Place</li>
+      <li>Updating notification preferences in the App</li>
+      <li>Contacting <a href="mailto:connect@compassplace.com">connect@compassplace.com</a></li>
+    </ul>
+    <p>After opting out, users receive a confirmation message. Users may opt back in at any time through the App settings.</p>
+
+    <h2>Help</h2>
+    <p>Reply <strong>HELP</strong> to any message for assistance, or contact <a href="mailto:connect@compassplace.com">connect@compassplace.com</a>.</p>
+    <p><strong>Message and data rates may apply.</strong></p>
+
+    <h2>App Registration Screenshots</h2>
+    <p>The following screenshots show the Compass Place registration flow where SMS consent is collected:</p>
+
+    <div class="screenshot-gallery">
+      <!-- REPLACE THESE WITH YOUR ACTUAL SCREENSHOT IMAGES -->
+      <!-- Upload your screenshots to this repo's /images folder and update the src paths -->
+      <div class="placeholder-note">
+        <strong>Screenshots of the consent flow are displayed below.</strong> These show the mobile app registration screens including the consent checkbox, Terms of Service link, and Privacy Policy link that users must accept before creating an account.
+      </div>
+
+      <!-- Uncomment and update these once you add screenshot images to the repo:
+      <div class="screenshot-row">
+        <div class="screenshot-item">
+          <img src="images/registration-screen.png" alt="Registration screen with phone number entry">
+          <p class="screenshot-caption">Step 1: User enters phone number</p>
+        </div>
+        <div class="screenshot-item">
+          <img src="images/consent-checkbox.png" alt="Consent checkbox with Terms and Privacy links">
+          <p class="screenshot-caption">Step 2: User checks consent checkbox</p>
+        </div>
+      </div>
+      <div class="screenshot-row">
+        <div class="screenshot-item">
+          <img src="images/verification-code.png" alt="SMS verification code entry">
+          <p class="screenshot-caption">Step 3: User verifies phone via SMS code</p>
+        </div>
+        <div class="screenshot-item">
+          <img src="images/account-created.png" alt="Account creation confirmation">
+          <p class="screenshot-caption">Step 4: Account created with SMS consent recorded</p>
+        </div>
+      </div>
+      -->
+    </div>
+
+    <div class="info-box">
+      <p><strong>Related Policies:</strong></p>
+      <p>View our full <a href="/privacy-policy">Privacy Policy</a> — includes complete SMS disclosure in Section 2.</p>
+      <p>View our full <a href="/terms-of-service">Terms of Service</a> — includes SMS consent details in Section 4.</p>
+    </div>
+
+    <div class="nav">
+      <a href="/privacy-policy">Privacy Policy</a>
+      <a href="/terms-of-service">Terms of Service</a>
+    </div>
+  </div>
+</body>
+</html>
